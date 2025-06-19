@@ -70,7 +70,7 @@ class SheetsWordPressIntegration {
           const content = await this.generateContentFromTitle(row.title);
           
           const postOptions = {
-            status: 'publish',
+            status: 'draft',
             excerpt: `「${row.title}」について詳しく解説した記事です。`,
             categories: [],
             tags: []
@@ -125,7 +125,7 @@ class SheetsWordPressIntegration {
       const content = await this.generateContentFromTitle(title);
       
       const postOptions = {
-        status: 'publish',
+        status: 'draft',
         excerpt: `「${title}」について詳しく解説した記事です。`,
         categories: [],
         tags: []
