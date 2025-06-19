@@ -3,7 +3,9 @@
     "allow": [
       "Bash(npm install)",
       "Bash(node:*)",
-      "Bash(npm run sheets:*)"
+      "Bash(npm run sheets:*)",
+      "WebFetch(domain:spinavi.info)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
