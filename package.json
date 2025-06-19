@@ -1,0 +1,17 @@
+{
+  "name": "wordpress-auto-poster",
+  "version": "1.0.0",
+  "description": "WordPress自動投稿システム",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "keywords": ["wordpress", "automation", "blog"],
+  "author": "",
+  "license": "MIT"
+}
